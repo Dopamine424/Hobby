@@ -1,0 +1,895 @@
+/* --------- fonts ----------------*/
+@font-face {
+    font-family: 'Gilroy Thin';
+    src: url('Gilroy-Thin.eot');
+    src: url('Gilroy-Thin.eot?#iefix') format('embedded-opentype'),
+    url('Gilroy-Thin.woff') format('woff'),
+    url('Gilroy-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Gilroy Ultra Light';
+    src: url('Gilroy-UltraLight.eot');
+    src: url('Gilroy-UltraLight.eot?#iefix') format('embedded-opentype'),
+    url('Gilroy-UltraLight.woff') format('woff'),
+    url('Gilroy-UltraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Gilroy Light';
+    
+    src: url('../FONTS/Gilroy-Light.woff') format('truetype'),
+    url('Gilroy-Light.woff') format('woff'),
+    url('Gilroy-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Gilroy Regular';
+    
+    src: url('../FONTS/Gilroy-Regular.woff') format('truetype'),
+    url('Gilroy-Regular.woff') format('woff'),
+    url('Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Gilroy Medium';
+    
+    src: url('../FONTS/Gilroy-Medium.woff') format('truetype'),
+    url('Gilroy-Medium.woff') format('woff'),
+    url('Gilroy-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Gilroy Semibold';
+   
+    src: url('../FONTS/Gilroy-SemiBold.woff') format('truetype'),
+    url('Gilroy-SemiBold.woff') format('woff'),
+    url('Gilroy-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+        font-family: 'Gilroy Bold';
+        
+        src: url('../FONTS/Gilroy-Bold.woff') format('truetype'),
+        url('Gilroy-Bold.woff') format('woff'),
+        url('Gilroy-Bold.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }
+@font-face {
+    font-family: 'Gilroy Extra Bold';
+    src: url('Gilroy-ExtraBold.eot');
+    src: url('Gilroy-ExtraBold.eot?#iefix') format('truetype'),
+    url('Gilroy-ExtraBold.woff') format('woff'),
+    url('Gilroy-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Gilroy Black';
+    
+    src: url('../FONTS/Gilroy-Black.woff') format('truetype'),
+    url('Gilroy-Black.woff') format('woff'),
+    url('Gilroy-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+/* font-family: 'Fredoka One', cursive; */
+
+/* color BLACK :#374A3D
+   color GREEN :#0CA941
+*/
+
+
+
+body{
+    background: url(..//img/background.png) repeat;
+
+ }
+
+.container{
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+/*------------ absolytle ---------------*/
+#ellips1{
+    position: absolute;
+    width: 514.19px;
+    height: 514.19px;
+    left: -121.48px;
+    top: -179.82px;
+    z-index: -1;
+    background: rgba(83, 195, 81, 0.33);
+    filter: blur(300px);
+}
+#ellips2{
+    position: absolute;
+    width: 681.23px;
+    height: 681.23px;
+    left: 1133.25px;
+    top: -84.22px;
+    z-index: -1;
+    background: rgba(255, 233, 120, 0.33);
+    filter: blur(300px);
+}
+#flower1{
+position: absolute;
+left: 2.06%;
+right: 89.55%;
+top: 0%;
+bottom: 95.23%;
+}
+@media (max-width: 1484px) {
+    #flower1{
+        display: none;
+    }
+}
+
+
+/*----------- header --------------------*/
+.logo{
+    margin-right: 300px;
+}
+.menu2{
+    display: none;
+
+}
+
+.navbar-toggler {
+    display: none;
+}
+header{
+    margin-top: 44px;
+    margin-bottom: 40px;
+}
+.header-menu .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.logotext{
+    font-family: "Gilroy Black";
+    font-size: 32px;
+    margin-left: 10px;
+    transition: all 0.1s;
+}
+.logotext:hover{
+    color: #12E158;
+}
+.logo{
+    text-decoration: none;
+    color: #374A3D;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    max-width: 430px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.menu_item{
+    text-decoration: none;
+    color: #374A3D;
+    font-family: 'Gilroy Semibold';
+    font-size: 18px;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+.menu_item:hover{
+    color: #12E158;
+}
+.menu_btnlogin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 620px;
+    width: 100%;
+
+}
+.btnlogin{
+    background-color: #0CA941;
+    color: white;
+    padding: 10px 32px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: 'Gilroy Semibold';
+    font-size: 18px;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+.btnlogin:hover{
+    background-color: #12E158;
+
+}
+
+
+/*------------- main -----------------------*/
+
+main{
+
+}
+
+/*------------- blok 1 ---------------------*/
+
+.block-1{
+
+
+    max-width: 100%;
+    min-height: 750px;
+    background: url(..//img/fonblok1.png) no-repeat 100%;
+
+
+}
+
+h1{
+    padding-top: 120px;
+    font-family: 'Fredoka One';
+    font-size: 72px;
+    line-height: 76px;
+    font-weight: 400;
+    color: #374A3D;
+}
+.h1{
+    color: #0CA941;
+}
+.p{
+    font-family: "Gilroy Medium";
+    font-size: 18px;
+    line-height: 32px;
+    color: #374A3D;
+
+}
+.block-1_btn{
+
+    border-radius: 1000px;
+    text-align: center;
+    text-decoration: none;
+    color: #374A3D;
+    fill: #374A3D;
+    text-decoration: none;
+    font-family: 'Gilroy Semibold';
+    font-size: 18px;
+    padding: 24px 50px;
+    background: url(..//img/button.png)no-repeat 40%;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+.block-1_btn:hover{
+    color: white;
+    fill: #fff;
+    text-align: center;
+    background: url(..//img/Button_hover.png)no-repeat 40%;
+}
+.picArrow{
+    margin: 0 40px;
+    position: relative;
+    top: 60px;
+}
+.pickaktus{
+    position: absolute;
+
+    left: 43%;
+    top: 75%;
+    border-radius: 35px;
+    -webkit-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+    box-shadow: 0 20px 40px 4px rgb(12, 169, 65, 0.1);
+
+}
+.pickaktus:hover{
+    box-shadow: 0 20px 40px 4px rgb(12, 169, 65, 0.2);
+}
+
+/*------------- blok 2 ---------------------*/
+.logo{
+    
+}
+#flower2{
+position: absolute;
+left: 240px;
+top: 926px;
+}
+.preim{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 115px;
+    border-radius: 28px;
+    padding-left: 120px;
+    min-height: 234.68px;
+    background-color: white;
+    box-shadow: 0 20px 40px 4px rgb(12, 169, 65, 0.1);
+}
+h3{
+    font-family: "Fredoka One";
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #374A3D;
+}
+.p2{
+    margin-top: -15px;
+    font-family: "Gilroy Medium";
+    font-size: 16px;
+    line-height: 26px;
+    color: #374A3D;
+}
+.p3{
+    font-family: "Gilroy Semibold";
+    font-size: 18px;
+    color: #374A3D;
+    background: url(..//img/Vector.png) no-repeat;
+}
+.bigch{
+    font-family: "Gilroy Black";
+    font-size: 60px;
+    color:#0CA941;
+}
+.blok2_sec2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 583px;
+    width: 100%;
+}
+
+/*------------- blok 3 ---------------------*/
+
+.block-3{
+    margin-top: 115px;
+}
+h2{
+    font-family: "Fredoka One";
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 400;
+    color: #374A3D;
+
+
+}
+.stat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#block3_p{
+    margin-bottom: -5px;
+}
+
+/*------------- blok 4 ---------------------*/
+
+.block-4{
+    margin-top: 115px;
+}
+.bl4{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block4_sec2{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 268px);
+    grid-template-rows: 132px 132px 31px 101px 164px;
+    row-gap: 0px;
+    column-gap: 30px;
+}
+#card1{
+    grid-row: 2/5;
+
+}
+#card2{
+    grid-row: 1/3;
+    grid-column: 2/3;
+
+}
+#card3{
+    grid-row: 4/6;
+    grid-column: 2/3;
+
+}
+.block4_title{
+    margin-top: -10px;
+    font-family: "Fredoka One";
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #374A3D;
+}
+#block4_p{
+    margin-top: -10px;
+    font-family: "Gilroy Medium";
+    font-size: 16px;
+    line-height: 24px;
+    color: #374A3D;
+}
+.card{
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 20px 40px 4px rgb(12, 169, 65, 0.1);
+
+}
+
+/*------------- blok 5 ---------------------*/
+
+.block-5{
+    margin-top: 120px;
+    text-align: center;
+}
+.block5_cards{
+    margin-top: 50px;
+display: flex;
+text-align: center;
+justify-content: space-between;
+}
+.block5_card{
+    border: 0.5px solid rgb(0, 0, 0, 0.36);
+    padding: 30px 36px;
+    border-radius: 37px;
+    max-width: 280px;
+    width: 100%;
+
+}
+.block5_card_title{
+    font-family: 'Fredoka One';
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #374A3D;
+    margin-bottom: -5px;
+}
+.block5_card_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card_button{
+    font-family: 'Gilroy Semibold';
+    color: #678570;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 0.5px solid rgb(0, 0, 0, 0.36);
+    border-radius: 10px;
+}
+.card_button:hover{
+    color: black;
+    border: 0.5px solid rgb(0, 0, 0, 1);
+}
+.prc{
+    font-family: 'Fredoka One';
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #0CA941;
+}
+.block-5 .block5_card_content div p{
+    font-family: "Gilroy Regular";
+    font-size: 12px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.block-5 .block5_card_content div{
+    text-align: left;
+}
+.block5_card_p{
+    color: #374A3D;
+    font-family: 'Gilroy Semibold';
+    font-size: 18px;
+}
+.block5_card_span{
+    color: #374A3D;
+    font-family: 'Gilroy Semibold';
+    font-size: 16px;
+}
+
+
+/*------------- blok 6 ---------------------*/
+
+.block-6{
+    margin-top: 120px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+.block-6 .container{
+    padding-top: 95px;
+    background-color: rgb(0, 0, 0, 0.02);
+    border-radius: 20px;
+    padding-bottom: 130px;
+}
+.block-6 .container input{
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 24px 33px;
+    font-family: "Gilroy Medium";
+    font-size: 18px;
+    line-height: 32px;
+    color: #374A3D;
+    border:  1px solid #0CA941;
+    max-width: 490px;
+    width: 100%;
+
+
+}
+.block-6-btn{
+    padding: 31px 70px;
+    background-color: #0CA941;
+    border-radius: 10px;
+    font-family: "Gilroy Medium";
+    font-size: 18px;
+    line-height: 32px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: -140px;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+.block-6-btn:hover{
+    background-color: #12E158;
+
+}
+
+/*------------- footer ---------------------*/
+
+footer .container .section .p{
+    color: #678570;
+}
+footer .container .section .icons{
+    max-width: 140px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+footer .container .section .icons svg{
+    padding: 10px;
+    fill: #678570;
+    fill-opacity: 0.53;
+    border-radius: 5px;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+footer .container .section .icons svg:hover{
+    background-color: #0CA941;
+    fill: #fff;
+    fill-opacity: 1;
+}
+footer .sections{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+
+}
+footer .container #section-2 li{
+    display: flex;
+    flex-direction: column;
+}
+footer .container #section-2 li span{
+    font-family: 'Gilroy Black';
+    font-size: 22px;
+    line-height: 32px;
+    color: #374A3D;
+    margin-bottom: 20px;
+
+}
+footer .container #section-2 li a{
+    font-family: "Gilroy Medium";
+    font-size: 18px;
+    line-height: 34px;
+    color: #374A3D;
+    text-decoration: none;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+footer .container #section-2 li a:hover{
+    color: #12E158;
+}
+footer .container #section-2 li .spanlow{
+    font-size: 18px;
+    margin-top: 7px;
+    margin-bottom: 0;
+
+}
+footer .container #section-2 li .alow{
+    line-height: 28px;
+
+}
+footer li{
+    width: 200px;
+}
+
+/*-------------- media -----------------*/
+
+@media(max-width: 1813px)
+{
+    #flower2{
+        display: none;
+    }
+    .block5_cards{
+        margin: 0 30px;
+    }
+    .footerimg{
+        display: none;
+    }
+
+}
+@media(max-width: 1219px){
+    footer .container{
+        margin: 0 20px;
+    }
+}
+@media(max-width: 1200px)
+{
+    .block-5 .container .p{
+        margin-bottom: 40px;
+    }
+    .block5_cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .block5_card{
+        margin-bottom: 40px;
+    }
+    .btnlogin{
+        margin-left: 30px;
+    }
+    .logo{
+        margin-right: 0;
+    }
+    .pickaktus{
+        display: none;
+    }
+    .block-1{
+        padding: 0 20px;
+        background: url(..//img/fonblok1.png) no-repeat 50%;
+    }
+    .header-menu .container{
+        padding: 0 20px;
+    }
+    .preim{
+        flex-wrap: wrap;
+    }
+    .block-2 .container{
+        max-width: 1200px;
+        width: 100%;
+        margin: 0;
+
+    }
+    .blok2_sec2{
+        margin-right: 20px;
+    }
+    .preim{
+        padding-left: 0;
+    }
+}
+@media(max-width: 1100px){
+    footer li{
+        width: 170px;
+    }
+    .block4_sec2{
+        margin-top: 100px;
+    }
+    .bl4{
+        flex-direction: column;
+    }
+    .stat{
+        flex-direction: column;
+    }
+}
+@media(max-width: 900px){
+    h3{
+        text-align: center;
+    }
+    .p2{
+        text-align: center;
+    }
+}
+@media(max-width: 800px){
+
+    .block-1{
+        background: none;
+    }
+    footer .container .sections{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+    .icons{
+        margin: 0 auto;
+    }
+   .sections .section .logo{
+
+        margin-left: 20%;
+
+    }
+    #section-2{
+        margin-top: 50px;
+    }
+
+}
+@media(max-width:700px){
+    .block-6 .container .form{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #email{
+        margin-bottom: 20px;
+    }
+    .block-6-btn{
+
+        max-width: 420px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #block3_p{
+        margin-bottom: 70px;
+    }
+    .block3-img{
+        width: 400px;
+    }
+    .menu {
+        display: none;
+        width: 100%;
+    }
+    .blok2_sec2{
+        margin: 0 20px;
+        flex-wrap: wrap;
+    }
+    .navbar-toggler{
+        display: block;
+        margin: 20px 20px 20px 0px;
+        background: none;
+        border: none;
+        border:  2px solid #0CA941;
+        border-radius: 10px;
+        padding: 5px 10px;
+        transition: all 0.2s ease-in-out;
+
+    }
+    .navbar-toggler:hover {
+        background-color: #0CA941;
+
+
+    }
+
+    .menu2{
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px 0px;
+    }
+    .mainmenu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media(max-width: 600px){
+    .block-6-btn{
+        max-width: 300px;
+    }
+    #email{
+        max-width: 370px;
+    }
+
+    .block4_sec2{
+        display: flex;
+        flex-direction: column;
+        width: 268px;
+
+    }
+    #card1{
+
+        margin-bottom: 50px;
+    }
+    #card2{
+        margin-bottom: 50px;
+
+    }
+    #card3{
+
+
+    }
+
+    .header-menu .container{
+        padding: 10 10px;
+    }
+    .block-1{
+        padding: 0 10px;
+    }
+
+}
+@media(max-width: 500px){
+    .block-6-btn{
+        max-width: 180px;
+    }
+    #email{
+        max-width: 250px;
+    }
+
+
+
+    .block-2{
+        margin-top: -300px;
+    }
+    .block3-img{
+        width: 250px;
+    }
+    .blok2_sec2{
+        flex-wrap: wrap;
+        max-width: 250px;
+        margin: 0 auto;
+        text-align: center;
+        justify-items: center;
+        flex-direction: column;
+    }
+   .picArrow{
+       display: none;
+   }
+   .block-1 .container{
+       padding-top: 0;
+   }
+   h1{
+       font-size: 48px;
+       padding: 0;
+   }
+   .p{
+       font-size: 16px;
+   }
+   .block-1 .container .p{
+       margin-bottom: 70px;
+   }
+   .btnlogin{
+       margin: 0;
+   }
+
+}
+@media(max-width:400px){
+    .preim{
+        margin-top: 280px;
+    }
+}
+@media(max-width: 360px){
+    .header-menu .container{
+        flex-wrap: wrap;
+    }
+    .btnlogin{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .block5_card{
+        width: 200px;
+    }
+}
+
+
+
+.show {
+    display: block;
+}
